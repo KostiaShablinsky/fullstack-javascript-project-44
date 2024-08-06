@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "extends":[   "../../_common/files/eslintrc.json", 
+                "plugin:react-hooks/recommended",
+                "plugin:import/recommended" 
+              ],
+  "env": {"node": true},
+  "plugin": [
+  "react/jsx-runtime"  
+          ],
+  "rules": {
+    "no-var": "off",
+    "prefer-arrow-callback": "off",
+    "object-shorthand": "off",
+    "no-underscore-dangle": [2, {"allow": ["_DBG_useExt", "_DBG_checkOptions", "_DBG_checkMethod", "_readlineSync", "_execFileSync", "_handle", "_flattenArray", "_getPhContent", "_DBG_set_useExt", "_DBG_set_checkOptions", "_DBG_set_checkMethod", "_DBG_clearHistory", "_questionNum", "_keyInYN", "_setOption"]}],
+    "camelcase": 0
+  }
+}
