@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +15,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.19.2",
+    "prompt-sync": "^4.2.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
