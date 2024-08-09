@@ -3,8 +3,8 @@ import getRandomInt from './randomNum.js';
 
 const roundsCount = 3;
 
-const playGame = (rule, getQuestionAndAnswer) => {
-
+// eslint-disable-next-line no-unused-vars
+const playGame = (_rule, getQuestionAndAnswer) => {
   console.log('Welcome to the Brain Games!');
 
   const userName = readlineSync.question('May I have your name? ');
@@ -15,54 +15,41 @@ const playGame = (rule, getQuestionAndAnswer) => {
 
   let correctAnswersCount = 0;
 
- 
-
   while (correctAnswersCount < roundsCount) {
+    const randomNum = getRandomInt(1, 100);
 
-    let randomNum = getRandomInt(1, 100);
-   
     console.log(`Question: ${randomNum}`);
 
     const userAnswer = readlineSync.question('Your answer: ');
 
-    if (randomNum % 2 === 0){
+    if (randomNum % 2 === 0) {
+      const correctAnswer1 = 'yes';
 
-        let correctAnswer1 = "yes";
-
-        if (correctAnswer1 == userAnswer){
-
-            console.log("Correct!");
-            correctAnswersCount += 1;
-
-        } else {
-
-            console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer1}.`);
-            console.log(`Let's try again, ${userName}!`);
-             return;
-
-        }
+      // eslint-disable-next-line eqeqeq
+      if (correctAnswer1 == userAnswer) {
+        console.log('Correct!');
+        correctAnswersCount += 1;
+      } else {
+        console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer1}.`);
+        console.log(`Let's try again, ${userName}!`);
+        return;
+      }
     }
 
-    if (randomNum % 2 != 0){
+    // eslint-disable-next-line eqeqeq
+    if (randomNum % 2 != 0) {
+      const correctAnswer2 = 'no';
 
-        let correctAnswer2 = "no";
-
-        if (correctAnswer2 === userAnswer){
-
-            console.log("Correct!");
-             correctAnswersCount += 1;
-
-        } else {
-            console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer2}.`);
-            console.log(`Let's try again, ${userName}!`);
-            return;
-        }
-    }       
-  
-  
-    
+      if (correctAnswer2 === userAnswer) {
+        console.log('Correct!');
+        correctAnswersCount += 1;
+      } else {
+        console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer2}.`);
+        console.log(`Let's try again, ${userName}!`);
+        return;
+      }
     }
-    console.log(`Congratulations, ${userName}!`);
-    
-}
-export default playGame
+  }
+  console.log(`Congratulations, ${userName}!`);
+};
+export default playGame;
