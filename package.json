@@ -16,7 +16,8 @@
   "dependencies": {
     "express": "^4.19.2",
     "prompt-sync": "^4.2.0",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "react-scripts": "5.0.1"
   },
   "devDependencies": {
     "@eslint/create-config": "^1.0.0",
