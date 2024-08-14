@@ -1,5 +1,5 @@
 const maxNumRand = 100;
-const minNumRand = 0;
+const minNumRand = 1;
 
 const getRandomInt = (
   minNum = minNumRand,
