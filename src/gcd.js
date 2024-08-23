@@ -6,9 +6,11 @@ const getCorrectAnswer = (num1, num2) => {
   let answer;
   while (num1 !== 0 && num2 !== 0) {
     if (num1 > num2) {
+      // eslint-disable-next-line no-param-reassign
       num1 %= num2;
       answer = num1 + num2;
     } else {
+      // eslint-disable-next-line no-param-reassign
       num2 %= num1;
       answer = num1 + num2;
     }

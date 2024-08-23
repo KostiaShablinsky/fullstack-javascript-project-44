@@ -6,6 +6,7 @@ brain-games:
  
 publish: 
 		npm publish --dry-run
+		
 make lint:	
 		 npx eslint .	
 
@@ -17,6 +18,7 @@ brain-calc:
 
 brain-gcd:
 			node bin/brain-gcd.js
+
 brain-progression:
 			node bin/brain-progression.js
 

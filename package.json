@@ -1,10 +1,9 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "bin/brain-games.js",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",
     "brain-gcd": "bin/brain-gcd.js",
@@ -20,7 +19,7 @@
   "dependencies": {
     "express": "^4.19.2",
     "prompt-sync": "^4.2.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^3.0.1",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {

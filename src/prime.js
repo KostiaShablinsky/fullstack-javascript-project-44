@@ -3,7 +3,6 @@ import playGame from './index.js';
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no"';
 const correctAnswer = (num) => {
-  let answer;
   if (num <= 1) {
     return true;
   }
