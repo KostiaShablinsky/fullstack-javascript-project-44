@@ -1,5 +1,5 @@
 import getRandomInt from './randomNum.js';
-import playGame from './index.js';
+import playGame from '../index.js';
 
 const lengthProgression = 10;
 const maxDiffProgresion = 15;

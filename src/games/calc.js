@@ -1,5 +1,5 @@
 import getRandomInt from './randomNum.js';
-import playGame from './index.js';
+import playGame from '../index.js';
 
 const rule = 'What is the result of the expression?';
 const operations = ['+', '-', '*'];
