@@ -14,30 +14,21 @@
   
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Учебный проект №1",
   "dependencies": {
-    "express": "^4.19.2",
-    "prompt-sync": "^4.2.0",
-    "react-scripts": "^5.0.1",
-    "readline-sync": "^1.4.10"
+    "express": "^4.19.2"
   },
   "devDependencies": {
     "@eslint/create-config": "^1.0.0",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.8.0",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-standard-with-typescript": "^43.0.1",
-    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsx-a11y": "^6.9.0",
-    "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.6.0",
     "eslint-plugin-react": "^7.35.0",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "globals": "^15.9.0",
-    "typescript": "^5.5.4",
-    "typescript-eslint": "^8.0.1"
-  }
+    "typescript": "^5.5.4"
+}
 }

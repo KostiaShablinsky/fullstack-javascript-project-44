@@ -1,4 +1,4 @@
-import getRandomInt from './randomNum.js';
+import getRandomInRange from './randomNum.js';
 import playGame from '../index.js';
 
 const rule = 'Find the greatest common divisor of given numbers.';
@@ -18,8 +18,8 @@ const getCorrectAnswer = (num1, num2) => {
 };
 
 const questionAndAnswer = () => {
-  const num1 = getRandomInt();
-  const num2 = getRandomInt();
+  const num1 = getRandomInRange();
+  const num2 = getRandomInRange();
   const question = `${num1} ${num2}`;
   const answer = getCorrectAnswer(num1, num2);
   return [question, String(answer)];

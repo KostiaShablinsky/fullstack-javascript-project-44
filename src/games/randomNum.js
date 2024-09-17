@@ -1,9 +1,3 @@
-const maxNumRand = 100;
-const minNumRand = 1;
-
-const getRandomInt = (
-  minNum = minNumRand,
-  maxNum = maxNumRand,
-) => Math.floor(Math.random() * maxNum) + minNum;
-
-export default getRandomInt;
+// eslint-disable-next-line max-len, import/prefer-default-export
+const getRandomInRange = (min = 0, max = 100) => Math.floor(min + Math.random() * (max - min + 1));
+export default getRandomInRange;

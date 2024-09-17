@@ -1,4 +1,4 @@
-import getRandomInt from './randomNum.js';
+import getRandomInRange from './randomNum.js';
 import playGame from '../index.js';
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no"';
@@ -13,7 +13,7 @@ const correctAnswer = (num) => {
   } return true;
 };
 const getQuestionAndAnswer = () => {
-  const question = getRandomInt();
+  const question = getRandomInRange();
   const answer = correctAnswer(question) ? 'yes' : 'no';
   return [question, answer];
 };
