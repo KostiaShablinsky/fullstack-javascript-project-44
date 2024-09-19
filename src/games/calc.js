@@ -17,11 +17,15 @@ const getCorrectAnswer = (operand1, operand2, operation) => {
   }
   return answer;
 };
-
+const random = (array) => {
+  const ran = Math.floor(Math.random() * array.length);
+  return array[ran];
+};
+console.log(random(operations));
 const getQuestionAndAnswer = () => {
   const operand1 = getRandomInRange();
   const operand2 = getRandomInRange();
-  const operation = operations[getRandomInRange(0, operations.length)];
+  const operation = random(operations);
   const question = `${operand1} ${operation} ${operand2}`;
   const answer = getCorrectAnswer(operand1, operand2, operation);
   return [question, String(answer)];
