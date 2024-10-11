@@ -1,4 +1,4 @@
-import getRandomInRange from './randomNum.js';
+import getRandomInRange from './utils.js';
 import playGame from '../index.js';
 
 const rule = 'Answer "yes" if the number is even, otherwise answer "no".';

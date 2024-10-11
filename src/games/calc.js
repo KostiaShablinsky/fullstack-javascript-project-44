@@ -1,4 +1,4 @@
-import getRandomInRange from './randomNum.js';
+import getRandomInRange from './utils.js';
 import playGame from '../index.js';
 
 const rule = 'What is the result of the expression?';
@@ -17,15 +17,15 @@ const getCorrectAnswer = (operand1, operand2, operation) => {
   }
   return answer;
 };
-const random = (array) => {
+const getRandomOperator = (array) => {
   const ran = Math.floor(Math.random() * array.length);
   return array[ran];
 };
-console.log(random(operations));
+
 const getQuestionAndAnswer = () => {
   const operand1 = getRandomInRange();
   const operand2 = getRandomInRange();
-  const operation = random(operations);
+  const operation = getRandomOperator(operations);
   const question = `${operand1} ${operation} ${operand2}`;
   const answer = getCorrectAnswer(operand1, operand2, operation);
   return [question, String(answer)];

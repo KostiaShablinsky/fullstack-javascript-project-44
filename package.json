@@ -1,7 +1,6 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "main": "bin/brain-games.js",
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
@@ -12,11 +11,9 @@
     "brain-prime": "bin/brain-prime.js"
   },
   
-  "author": "",
-  "license": "ISC",
+  "author": "Shablinsky Konstantin",
   "description": "Учебный проект №1",
   "dependencies": {
-    "express": "^4.19.2"
   },
   "devDependencies": {
     "@eslint/create-config": "^1.0.0",
