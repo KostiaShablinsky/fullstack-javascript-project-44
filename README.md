@@ -1,27 +1,27 @@
 [![Actions Status](https://github.com/KostiaShablinsky/fullstack-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/KostiaShablinsky/fullstack-javascript-project-44/actions)
-# Проект "Игры разума"
+# The Mind Games Project
 
-«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново.
+Mind Games is a set of five console games based on the principle of popular mobile brain—boosting applications. Each game asks questions that need to be answered correctly. After three correct answers, it is considered that the game is over. Incorrect answers end the game and offer to go through it again.
 
-# Инструкция по установке и запуску проекта
+# Instructions for installing and launching the project
 
-* выполните клонирование репозитория с помощью команды git clone
-* выполните установку пакетов с помощью команды make install или npm ci
-* выполните пробный запуск игры brain-games
+* clone the repository using the git clone command
+* install the packages using the make install or npm ci command
+* do a trial run of the brain-games game
 
-## Видео инструкция по установке и запуску проекта
+## Video instructions for installing and launching the project
 https://asciinema.org/a/ZDI2J7HVkdHX8s71AecCpshD2
 
-## Список игр:
-* ___"Калькулятор"___ https://asciinema.org/a/Lkf5zYz9LOmzsjoe5nliF0x84;
+## List of games:
+* ___"Calculator"___ https://asciinema.org/a/Lkf5zYz9LOmzsjoe5nliF0x84;
 ---
-* ___"Проверка на чётность"___ https://asciinema.org/a/7CvN6shHJYgrzUQ7D8zPfTHDs;
+* ___"Parity check"___ https://asciinema.org/a/7CvN6shHJYgrzUQ7D8zPfTHDs;
 ---
-* ___"Наибольший общий делитель (НОД)"___ https://asciinema.org/a/fKNxzMG20Gx0GtDR8tgt5KIxs;
+* ___"The largest common divisor (GCD)"___ https://asciinema.org/a/fKNxzMG20Gx0GtDR8tgt5KIxs;
 ---
-* ___"Арифметическая прогрессия"___ https://asciinema.org/a/C5n0FckPtjCaEzC98PyEctSCo;
+* ___"Arithmetic progression"___ https://asciinema.org/a/C5n0FckPtjCaEzC98PyEctSCo;
 ---
-* ___"Простое ли число"___ https://asciinema.org/a/dbR0AiM4gEWLFu76AlOZ4bt6T;
+* ___"Is it a prime number"___ https://asciinema.org/a/dbR0AiM4gEWLFu76AlOZ4bt6T;
 
 
 

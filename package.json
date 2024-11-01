@@ -13,7 +13,6 @@
   "author": "Shablinsky Konstantin",
   "description": "Учебный проект №1",
   "devDependencies": {
-    "@eslint/create-config": "^1.0.0",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.8.0",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
